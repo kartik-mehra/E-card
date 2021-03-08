@@ -1,0 +1,43 @@
+div.fullDetails{
+
+    flex: 1;
+    padding-top: 6%;
+    overflow: visible;
+    position: relative;
+  }
+
+  div.sideOptions {
+    flex: 3;
+    position: relative;
+    border : 2px solid #f4f4f4;
+    border-radius: 10px;
+    max-height: 90%;
+    height: auto;
+    box-shadow:0px 0px 10px 1px #f4f4f4;
+    overflow: auto;
+  }
+
+  div.optionDetails{
+    flex: 7;
+    position: relative;
+    border : 2px solid #f4f4f4;
+    border-radius: 10px;
+    max-height: 10%;
+    margin-left: 10px;
+    height: 'auto';
+    box-shadow:0px 0px 10px 1px #f4f4f4;
+    /* overflow: hidden; */
+  }
+
+ul{
+    list-style-type:none;
+    width: 100%;
+    margin:0px
+}
+
+li{
+    padding: 10px;
+    margin:0px;
+    text-align: left;
+    font-family: sans-serif;
+}

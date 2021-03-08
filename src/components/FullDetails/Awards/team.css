@@ -1,0 +1,120 @@
+.teamFlex {
+/* text-align: center; */
+/* justify-self: flex-start; */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+flex-flow: wrap;
+height: 100%;
+/* flex:1; */
+
+}
+
+.main {
+width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+/* .teamFlex div {
+width: 50%;
+height: 50%;
+
+} */
+
+@media screen and (orientation: landscape) {
+  p.teamName { 
+    
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size:14px;
+    overflow: hidden;
+    width: 100%;
+    margin:auto;
+    margin-top:25%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  p.teamName { 
+    
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size:14px;
+    overflow: hidden;
+    width: 90%;
+    margin:auto;
+    margin-top:45%;
+  }
+}
+
+
+  @media screen and (orientation: landscape) {
+    .cardContainer {
+      width: 90%;
+      height: 50%;
+      margin: 5%;
+      margin-top:18vh;
+      align-self: center;
+      }
+  }
+  
+  @media screen and (orientation: portrait) {
+    .cardContainer {
+      width: 90%;
+      height: 50%;
+      margin: 5%;
+      margin-top:18vw;
+      }
+  }
+
+
+
+.teamDetails {
+/* text-align: center; */
+/* justify-self: flex-start; */
+
+background-color: #fff7f5;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+/* flex-grow: 1; */
+height: 100%;
+width: 100%;
+border : 1px transparent;
+border-top-left-radius: 40px;
+border-bottom-right-radius: 40px;
+box-shadow:0px 0px 10px 2px #e4e4e4;
+overflow: hidden;
+padding-top:10% ;
+text-align: center;
+/* margin: 5%; */
+}
+
+
+@media screen and (orientation: landscape) {
+  img.picTeam {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 8vw;
+    border : 2px solid #e0e8db;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (orientation: portrait) {
+  img.picTeam {
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10vw;
+    border : 2px solid #e0e8db;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

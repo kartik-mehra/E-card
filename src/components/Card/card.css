@@ -1,0 +1,197 @@
+.Card {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    height: 94vh;
+    width: 70vw;
+    border : 1px transparent;
+    border-radius: 5px;
+    /* box-shadow:0px 0px 30px 5px #c4c4c4; */
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .CardMobile {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    height: 80vh;
+    margin-top: 5vh;
+    justify-self: center;
+    width: 90vw;
+    border : 1px transparent;
+    border-radius: 5px;
+    box-shadow:0px 0px 30px 5px #c4c4c4;
+    overflow: hidden;
+
+  }
+
+  div{
+    display: flex;
+    align-items: flex-start;
+  }
+  div.cover {
+    height: 20vh;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+    background-color:  #fffae6;
+  }
+  div.optionDetails{
+    flex: 7;
+    position: relative;
+    border : 2px solid #f4f4f4;
+    border-radius: 10px;
+    max-height: 90%;
+    margin-left: 10px;
+    /* height: auto; */
+    /* box-shadow:0px 0px 10px 1px #f4f4f4; */
+    overflow: auto;
+  }
+
+  div.profile{
+    display:flex;
+    overflow: visible;
+    position: relative;
+    flex-direction: row;
+    height: 20vh;
+    width:100%;
+    z-index: 2;
+    margin-top : 5vh;
+    /* background-color: blue; */
+    /* background-color: black; */
+    /* align-self: stretch; */
+    /* right: 0vh; */
+  }
+  div.imgProfile{
+    flex: 1;
+  }
+
+  div.profileDetails{
+    margin-left: 13.5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  p.name { 
+    display: inline-block;
+    /* align-self: flex-start; */
+    justify-content: center;
+    margin:0px;
+    margin-top: 5vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:3vh;
+    text-align:left;
+    /* background-color: brown; */
+  }
+
+img.pic {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 100px;
+  border : 2px solid white;
+  position: absolute;
+  left: 3vw;
+  align-self: center;
+}
+
+@media screen and (orientation: landscape) {
+  img.picMobile  {
+    height: 24vh;
+    width: 24vh;
+    border-radius: 12vh;
+    border : 2px solid rgb(201, 233, 252);
+    position: relative;
+    /* left: 3vw; */
+    align-self: center;
+    margin-top: 4vh;
+    margin-left: 10px;
+    box-shadow:2px 6px 10px 2px #c4c4c4;
+    
+  
+   }
+}
+
+@media screen and (orientation: portrait) {
+  img.picMobile  {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 15vw;
+    border : 2px solid rgb(201, 233, 252);
+    position: relative;
+    /* left: 3vw; */
+    align-self: center;
+    margin-top: 0vh;
+    margin-left: 10px;
+    box-shadow:2px 6px 10px 2px #c4c4c4;
+    
+  
+   }
+}
+
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 1.8vh;
+}
+
+@media screen and (orientation: landscape) {
+  img.picMobileCover  {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 10vh;
+    border : 2px solid rgb(201, 233, 252);
+    position: relative;
+    /* left: 3vw; */
+    align-self: center;
+    margin-top: 4vh;
+    margin-left: 10px;
+    box-shadow:2px 6px 10px 2px #c4c4c4;
+    
+  
+   }
+}
+
+@media screen and (orientation: portrait) {
+  img.picMobileCover  {
+    height: 22vw;
+    width: 22vw;
+    border-radius: 11vw;
+    border : 2px solid rgb(201, 233, 252);
+    position: relative;
+    /* left: 3vw; */
+    align-self: center;
+    margin-top: 0vh;
+    margin-left: 10px;
+    box-shadow:2px 6px 10px 2px #c4c4c4;
+    
+  
+   }
+}
+
+
+ 
+img.cover{
+    height: 100%;
+    width: 100%;
+}
+  
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

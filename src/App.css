@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #EFF7F6;
+  /* background: linear-gradient(320deg, #a34af4, #a76208, #ffad9c);
+  background-size: 600% 600%; */
+
+  /* -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  -o-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  overflow: hidden;
+  
+}
+
+
+/* .css-selector {
+  
+} */
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:9% 0%}
+  50%{background-position:92% 100%}
+  100%{background-position:9% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:9% 0%}
+  50%{background-position:92% 100%}
+  100%{background-position:9% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:9% 0%}
+  50%{background-position:92% 100%}
+  100%{background-position:9% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:9% 0%}
+  50%{background-position:92% 100%}
+  100%{background-position:9% 0%}
+}
+
+div {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.lotties{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width: 480px){
+  .lotties{
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
